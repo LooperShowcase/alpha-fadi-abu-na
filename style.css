@@ -1,0 +1,43 @@
+body {
+  font-family: 'Architects Daughter', cursive;
+  background-color: rgb(42, 160, 160);
+}
+div {
+  background-color: brown;
+}
+div {
+  background-color: dimgray;
+
+
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+#gg:hover{
+transition:5s ;
+transform:rotateZ(180deg);
+}
